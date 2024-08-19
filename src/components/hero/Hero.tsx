@@ -1,3 +1,5 @@
+import ButtonStyles from "./hero.module.css"
+
 export const Hero = () => {
     return (
         <div className="hero">
@@ -9,7 +11,7 @@ export const Hero = () => {
                 Trust me, I'm a<s>n</s> <s>Engineer</s> styling guru 
                 </h2>
                 <p>
-                    <button className="btn">Explore</button>
+                    <button className={ButtonStyles.btn}>Explore</button>
                     <button className="btn">Default button style</button>
                 </p>
             </div>
