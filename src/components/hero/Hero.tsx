@@ -1,5 +1,3 @@
-import Styles from "./hero.module.css"
-
 export const Hero = () => {
     return (
         <div className="hero">
@@ -8,11 +6,11 @@ export const Hero = () => {
                    Free profesional styling tips
                 </h1>
                 <h2 className="subtitle">
-                Trust me, I'm a<s>n</s> <s>Engineer</s> styling professional
+                Trust me, I'm a<s>n</s> <s>Engineer</s> styling guru 
                 </h2>
                 <p>
-                    <button className={Styles.btn}>Explore</button>
-                    <button>Default button style</button>
+                    <button className="btn">Explore</button>
+                    <button className="btn">Default button style</button>
                 </p>
             </div>
         </div>
