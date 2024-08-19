@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+    background-color: red;
+}
+
+.hero{
+    background-color: green;
+}
+
+button{
+    background: rgb(1, 54, 1);
+    color: white;
+    cursor: pointer;
+}
