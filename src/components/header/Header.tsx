@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <div className="header">
 
-        <button>Menu</button>
+        <button className="btn">Menu</button>
     </div>
   )
 }
